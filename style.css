@@ -1,0 +1,42 @@
+body{
+    background:url(../bg3.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    opacity: 1.7;
+}
+#form-container{
+    background-color:aqua;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 50px;
+    text-align: center;
+}
+h2{
+    margin: 0px 0px 0px 10px;
+}
+.error{
+    margin: 0px;
+    text-align: left;
+    color: red;
+
+}
+input{
+    width: 200px;
+    height: 10px 0px;
+    padding: 10px;
+    border: 2px solid black;
+    font-family: 'Courier New', Courier, monospace;
+}
+input[ type=button]{
+    width: 80px;
+    height: 38px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color:rgba(99, 89, 50, 0.804);
+    font-style: bold;
+}
+
+
